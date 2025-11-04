@@ -1,0 +1,16 @@
+node_modules
+.pnpm-store
+dist
+*.log
+.git
+.gitignore
+.sst
+.env
+.env.*
+README.md
+PLAN.md
+.eslintrc.js
+.prettierrc
+*.md
+.DS_Store
+
