@@ -42,7 +42,7 @@ export function createComputeInfrastructure(
   const service1 = cluster.addService('Service1', {
     image: {
       context: '.',
-      dockerfile: 'docker/service1.Dockerfile',
+      dockerfile: 'apps/service1/Dockerfile',
     },
     architecture: service1Config.architecture.toLowerCase() as 'arm64' | 'x86_64',
     cpu: cpuStr as any,

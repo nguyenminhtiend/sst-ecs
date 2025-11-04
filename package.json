@@ -5,7 +5,6 @@
   "description": "Monorepo with Express microservices deployed to AWS ECS using SST",
   "scripts": {
     "dev:service1": "pnpm --filter service1 dev",
-    "dev:service2": "pnpm --filter service2 dev",
     "build": "pnpm -r build",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
